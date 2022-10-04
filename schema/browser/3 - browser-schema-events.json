@@ -1,0 +1,52 @@
+{
+    "events": [
+        {
+            "type": "PageView",
+            "attributes": {
+
+            }
+        },
+        {
+            "type": "PageNavigationTiming",
+            "attributes": {
+
+            }
+        },
+        {
+            "type": "PageFetchTiming",
+            "attributes": {
+
+            }
+        },
+        {
+            "type": "ResourceFetchTiming",
+            "attributes": {
+
+            }
+        },
+        {
+            "type": "FetchTiming",
+            "attributes": {
+
+            }
+        },
+        {
+            "type": "XHRTiming",
+            "attributes": {
+
+            }
+        },
+        {
+            "type": "UserAction",
+            "attributes": {
+
+            }
+        },
+        {
+            "type": "Error",
+            "attributes": {
+
+            }
+        }
+    ]
+}

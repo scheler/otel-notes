@@ -1,0 +1,76 @@
+{
+"spans" : [
+    {
+        "type": "PageView",
+        "attributes" : [
+            {
+                "name": "http.url",
+                "type": "string"
+            }
+        ]
+    },
+    {
+        "type": "PageFetch",
+        "attributes" : [
+            {
+                "name": "http.url",
+                "type": "string"
+            }
+        ]
+    },
+    {
+        "type": "ResourceFetch",
+        "attributes" : [
+            {
+                "name": "http.url",
+                "type": "string",
+                "description": "URL of the resource"
+            }
+        ]
+    },
+    {
+        "type": "Fetch",
+        "attributes" : [
+            {
+                "name": "http.url",
+                "type": "string",
+                "description": "Complete URL including scheme, host, port, path and any query parameters"
+            },
+            {
+                "name": "http.method",
+                "type": "string"
+            },
+            {
+                "name": "http.status_code",
+                "type": "string"
+            },
+            {
+                "name": "http.request_content_length",
+                "type": "string"
+            }
+        ]
+    },
+    {
+        "type": "XHR",
+        "attributes" : [
+            {
+                "name": "http.url",
+                "type": "string",
+                "description": "Complete URL including scheme, host, port, path and any query parameters"
+            },
+            {
+                "name": "http.method",
+                "type": "string"
+            },
+            {
+                "name": "http.status_code",
+                "type": "string"
+            },
+            {
+                "name": "http.request_content_length",
+                "type": "string"
+            }
+        ]
+    },
+]
+}

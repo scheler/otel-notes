@@ -1,0 +1,64 @@
+{
+    "attributes": [
+      "// Mandatory attributes",
+      {
+        "key": "telemetry.sdk.language",
+        "type": "string"
+
+      },
+      {
+        "key": "telemetry.sdk.name",
+        "type": "string"
+
+      },
+      {
+        "key": "telemetry.sdk.version",
+        "type": "string"
+
+      },
+      {
+        "key": "service.name",
+        "type": "string"
+
+      },
+
+      "// Browser identification attributes",
+      {
+        "key": "browser.language",
+        "type": "string"
+
+      },
+      {
+        "key": "browser.brand",
+        "type": "array(string)"
+
+      },
+      {
+        "key": "browser.platform",
+        "type": "string"
+
+      },
+      {
+        "key": "browser.user_agent",
+        "type": "string"
+
+      }
+    ],
+
+    "state": [
+        "// Attributes describing state of the resource (aka ephemeral)",
+        {
+            "key": "browser.session.id",
+            "type": "string"
+    
+        },
+        {
+            "key": "browser.page.url",
+            "type": "string",
+            "description": "URL of the page emitting the signals",
+            "notes": ["This is usually not present for a PageView span/event. When it is present,",
+                     "it indicates the PageView signal represents an iFrame "]
+    
+        }
+    ]
+}
